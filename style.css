@@ -1,0 +1,47 @@
+html {
+  background-image: url(./images/kelly-sikkema-desk-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: grid;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  font-size: 30pt;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  text-shadow: 2px 2px rgb(213, 167, 90);
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+li {
+  color: rgb(213, 167, 90);
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(55, 55, 55);
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(213, 167, 90);
+  transition: 0.3s, ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}

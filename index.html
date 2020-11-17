@@ -3,12 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
       <h1>Address Book</h1>
-      <button id="demo-button" onclick="displayUser()">Click!</button>
+      <section id="button-section">
+        <button id="five-button" onclick="displayUser()">
+          Load Five Random Users
+        </button>
+        <button id="AU-button" onclick="displayAUUser()">
+          Load Five AU Users
+        </button>
+        <button id="US-button" onclick="displayUSUser()">
+          Load Five US Users
+        </button>
+        <button id="FR-button" onclick="displayFRUser()">
+          Load Five FR Users
+        </button>
+        <button id="GB-button" onclick="displayGBUser()">
+          Load Five GB Users
+        </button>
+      </section>
     </header>
     <main>
       <section id="address-section"></section>
